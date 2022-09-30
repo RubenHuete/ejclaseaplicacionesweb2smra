@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaración de la renta</title>
+  </head>
+  <body>
+    <form action="procesarformulario.php" method="get">
+      <p>Nombre:<input type="text" name="nombre" size="40"></p>
+      <p>Apellidos:<input type="text" name="apellidos" size="40"></p>
+      <p>Email:<input type="email" name="email" size="40" required=""></p>
+      <p>
+        Año de nacimiento:
+        <input type="number" name="nacido" min="1900" max="2022">
+      </p>
+      <p>
+        Foto de su Dni:<input
+          type="file"
+          name="fotodni"
+          size="20"
+          accept=".pdf,.jpg"
+        >
+      </p>
+      <p>
+        <input type="checkbox" name="casilla">Marca la casilla a favor de la
+        iglesia
+      </p>
+      <p>
+        <input type="checkbox" name="casilla">Marca la casilla a favor de
+        España
+      </p>
+      <p>
+        Sexo: <input type="radio" name="hm" value="h"> Hombre
+        <input type="radio" name="hm" value="m"> Mujer
+        <input type="radio" name="hm" value="pnd"> Prefiero no decirlo
+      </p>
+      <p>Color de ojos<input type="color" name="colorElegido"></p>
+      <p>
+        Nivel de ingresos(malo, regular y bueno)
+        <input type="range" name="rango" min="1" max="3" list="lista-rango">
+        <datalist id="lista-rango">
+          <option value="1" label="Malo"></option>
+          <option value="2" label="Regular"></option>
+          <option value="3" label="Bueno"></option>
+        </datalist>
+      </p>
+
+      <p><input type="submit" value="Enviar"></p>
+    </form>
+  </body>
+</html>
