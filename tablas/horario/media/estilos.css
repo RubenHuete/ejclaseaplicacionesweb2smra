@@ -1,0 +1,8 @@
+body, address {
+    color: blue;
+    background-color: brown;
+}
+tr {
+    color: chartreuse;
+    background-color: blueviolet;
+}
