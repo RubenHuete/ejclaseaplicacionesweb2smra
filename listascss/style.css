@@ -1,0 +1,14 @@
+.underline{
+    text-decoration: underline;
+}
+
+.dt{
+    text-decoration: underline;
+}
+
+ul{
+ list-style-type: square; /* Poner el type para seleccionar solo una cualidad*/   
+}
+ol{
+    list-style-image: url("media/emote.png");
+}
