@@ -1,0 +1,27 @@
+/* Autor Rubén Huete */
+
+header p:first-child{
+    color:aqua
+}
+
+a:link{
+    background-color: lightblue;
+}
+a:visited{
+
+    background-color: red;
+}
+a:hover{
+    background-color: darkblue;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+}
+a:active{
+    background-color: lightgreen;
+    font-size: 30px;
+}
+a:focus{
+    background-color: brown;
+}
